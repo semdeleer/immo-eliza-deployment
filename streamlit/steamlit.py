@@ -102,5 +102,4 @@ def main():
     st.success(price)
 
 
-if __name__ == '__main__':
-    main()
+main()
