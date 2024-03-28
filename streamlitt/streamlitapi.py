@@ -5,7 +5,7 @@ import pandas as pd
 import json
 import requests
 
-modelb = open(r"../streamlitt/model_pickle_b", "rb")
+modelb = open(r"./streamlitt/model_pickle_b", "rb")
 modelb = pickle.load(modelb)
 
 #creating a dunction for Prediction
@@ -115,7 +115,7 @@ inputs = {"postalcode": postalcode,
 
     #creating a button for prediction
 if st.button('price result'):
-    price_response = requests.post(url="http://127.0.0.1:8000/predict", data=json.dumps(inputs))
+    price_response = requests.post(url="https://immo-eliza-deployment-semdeleersnijder.onrender.com/predict", data=json.dumps(inputs))
     
     if price_response.status_code == 200:
         price_data = price_response.json()
