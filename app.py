@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-import predict
+from streamlitt.predict import predict
+
+
 
 
 app = FastAPI()

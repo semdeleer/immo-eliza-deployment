@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 
-modelb = open(r"./streamlit/model_pickle_b", "rb")
+modelb = open(r"./streamlitt/model_pickle_b", "rb")
 modelb = pickle.load(modelb)
 
 
