@@ -12,12 +12,11 @@
 
 
 ## 📖 Description
-This project is a follow up on the Immoweb EDA project in https://github.com/NathNacht/immo-eliza-scraping-immozila-Cleaning-EDA.git.
+This project is a follow up on the Immoweb ML project in https://github.com/semdeleer/immo-eliza-ml.git.
 
-Our aim for this project is to create a machine learning model capable of predicting housing prices accurately. Our task involves cleaning and analyzing scraped data efficiently to uncover insights. Our main goal is to estimate property values and identify the most valuable ones.
+Our objective in this phase of the project is to deploy a machine learning model capable of accurately predicting housing prices. We set up a FastAPI application. This FastAPI instance was then deployed on Render, and using the Render link, we further deployed it onto a Streamlit website.
 
-To start, we've divided the raw data into two datasets: one for houses and another for apartments.
-The fields within these raw files remain consistent, consisting of:
+The input properties required in the Streamlit interface for predicting the price include:
 
 
 * property_id
