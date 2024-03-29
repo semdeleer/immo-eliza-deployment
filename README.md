@@ -19,18 +19,10 @@ In this project phase, our primary goal is to deploy a machine learning model th
 The input properties required in the Streamlit interface for predicting the price include:
 
 
-* property_id
-* locality_name
 * postal_code
-* street_name
-* house_number
-* latitude
-* longitude
 * property_type (house or apartment)
 * property_subtype (bungalow, chalet, mansion, ...)
-* price
 * type_of_sale (note: exclude life sales)
-* number_of_rooms (Number of rooms)
 * living_area (Living area (area in m²))
 * kitchen_type
 * fully_equipped_kitchen (0/1)
