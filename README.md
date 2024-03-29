@@ -14,7 +14,7 @@
 ## 📖 Description
 This project is a follow up on the Immoweb ML project in https://github.com/semdeleer/immo-eliza-ml.git.
 
-Our objective in this phase of the project is to deploy a machine learning model capable of accurately predicting housing prices. We set up a FastAPI application. This FastAPI instance was then deployed on Render, and using the Render link, we further deployed it onto a Streamlit website.
+In this project phase, our primary goal is to deploy a machine learning model that accurately predicts housing prices. We implemented this by establishing a FastAPI application, which was subsequently deployed on Render. Leveraging the Render link, we extended its deployment to a Streamlit website. Additionally, we explored an alternative approach by deploying the machine learning model directly through Streamlit and then encapsulating it within a Dockerfile for deployment.
 
 The input properties required in the Streamlit interface for predicting the price include:
 
@@ -50,7 +50,7 @@ The input properties required in the Streamlit interface for predicting the pric
 
 * clone the repo
 ```bash
-git git@github.com:semdeleer/immo-eliza-ml.git
+git git@github.com:semdeleer/immo-eliza-deployment.git
 ```
 
 * Install all the libraries in requirements.txt
@@ -60,12 +60,17 @@ pip install -r requirements.txt
 
 * Run the script
 ```bash
-$ python3 predict.py
+$ python3 streamlitapi.py
 ```
+* Run the command in terminal
+```bash
+$ streamlit run c:/Users/semde/BeCodeH/Projects/Project6/immo-eliza-deployment/streamlitt/streamlitapi.py
+```
+* Enter the criteria of your house.
 
-* Enter the criteria your house has
+* Click on the price result button
 
-* The model will give a price back
+* You wil get the price result of your house
 
 ## 👾 Cleaning steps
 
