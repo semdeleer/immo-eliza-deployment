@@ -72,35 +72,13 @@ $ streamlit run c:/Users/semde/BeCodeH/Projects/Project6/immo-eliza-deployment/s
 
 * You wil get the price result of your house
 
-## 👾 Cleaning steps
+* To run the dockerfile
 
-Before utilizing the raw data in the machine learning model, it undergoes several preprocessing steps to enhance its quality and suitability for analysis. The following are the sequential cleaning steps employed:
+* Run the command in terminal
+```bash
+$ docker run mystreamlit3
 
-* Replace Outliers: Identify and substitute outliers with appropriate values.
-
-* Drop Columns: Remove irrelevant or redundant columns from the dataset.
-
-* Drop Null Values: Eliminate rows containing missing data.
-
-* Transform Categorical Variables (One-Hot Encoding): Convert categorical variables into numerical format using One-Hot Encoding.
-
-* Transform Label Encoder: Encode categorical variables using LabelEncoder.
-
-* Create X and y: Separate the dataset into feature matrix (X) and target variable (y).
-
-* Replace NaN in Categorical Variables: Replace missing values in categorical variables with suitable representations.
-
-* Change to Integer: Convert data types to integer where appropriate.
-
-* Replace Null Values with Median: Substitute missing numerical values with the median of respective columns.
-
-* Replace Null Values with Minimum minus One: Replace missing numerical values with (minimum value - 1) of respective columns.
-
-* Replace Null Values with Mean: Fill missing numerical values with the mean of respective columns.
-
-* Replace Null Values with Zero: Replace missing numerical values with zero.
-
-
+```
 ## 🤖 Project File structure
 ```
 C:.
